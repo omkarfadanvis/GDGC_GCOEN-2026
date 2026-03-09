@@ -8,6 +8,7 @@ import LandingPageHackOn from "@/components/Hackthon/LandingPageHackOn";
 import WhyParticipant from "@/components/Hackthon/WhyParticipant";
 import FooterHackON from "@/components/Utility/FooterHackON";
 import Image from "next/image";
+import TitleSponsor from "@/components/Hackthon/TitleSponsor";
 
 export const metadata = {
   title: "HackOn | 8 Hr Hackathon",
@@ -19,6 +20,7 @@ export const metadata = {
 const Hackon = () => {
   return (
     <div className="fixed  top-0  flex-col  flex md:gap-5 left-0 w-full  overflow-y-scroll overflow-scroll h-screen z-50 bg-black"> 
+      <TitleSponsor />
       <LandingPageHackOn />
       <HackOnInfo />
       <WhyParticipant />
