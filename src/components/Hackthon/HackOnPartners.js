@@ -6,7 +6,7 @@ const HackOnPartners = () => {
    
     <div className="w-full flex flex-col gap-5 p-5">
       <h3 className="font-medium text-white text-3xl md:py-5 md:text-5xl text-center">
-        Powered By
+        Powered By someone
       </h3>
 
    
