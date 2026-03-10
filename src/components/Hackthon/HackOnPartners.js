@@ -12,7 +12,7 @@ const HackOnPartners = () => {
    
       <div className="flex justify-center items-center gap-x-20 gap-y-10 flex-wrap">
         <img src="/sponsor/Windsurf-white-wordmark.png" alt="Codon" className="w-3/4 h-32 md:w-auto max-w-[250px] md:max-w-[300px]" />
-        
+          
       </div>
     </div>
     <div className="w-full flex flex-col gap-5 p-5">
